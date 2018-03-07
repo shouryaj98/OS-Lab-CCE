@@ -62,27 +62,27 @@ int main()
 	for(i=0;i<n;i++)
 	{
 	    arr[i]=malloc(sizeof(struct process));
-        printf("Burst time for process %d\n",i+1);
+        printf("Burst time %d-\n",i+1);
         scanf("%d",&arr[i]->bt);
-        printf("Priority for process %d\n",i+1);
+        printf("Priority %d-\n",i+1);
         scanf("%d",&arr[i]->pr);
-        printf("Arrival Time for process %d\n",i+1);
+        printf("Arrival time %d-\n",i+1);
         scanf("%d",&arr[i]->at);
         arr[i]->no=i+1;
         arr[i]->conttime=0;
         arr[i]->btc=arr[i]->bt;
 	}
-
+/*
 	for(i=0;i<n;i++)
 	{
-        printf("Burst time for process %d - ",arr[i]->no);
+        printf("Burst time - %d - ",arr[i]->no);
         printf("%d\n",arr[i]->bt);
-        printf("Priority for process %d - ",arr[i]->no);
+        printf("Priority -  %d - ",arr[i]->no);
         printf("%d\n",arr[i]->pr);
-        printf("Arrival Time for process %d - ",arr[i]->no);
+        printf("Arrival time - %d - ",arr[i]->no);
         printf("%d\n",arr[i]->at);
 	}
-
+*/
     printf("1.Preemptive SJF\n2.Round Robin\n3.Non-preemptive Priority\n");
     int sw;//Switch
     scanf("%d",&sw);
