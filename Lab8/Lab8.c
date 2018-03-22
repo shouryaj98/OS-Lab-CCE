@@ -1,11 +1,5 @@
 #include<stdio.h>
 int available[10],max[10][10],allocation[10][10],need[20][20],n,r,work[10],finish[10],safe[10];
-void safety()
-{
-int i,j;
-}
-
-
 int main(){
 int i,j;
 printf("Enter the number of processes : ");
