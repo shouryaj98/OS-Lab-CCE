@@ -12,7 +12,7 @@ struct process
     int btc;//Copy of Burst time (unaltered)
     int at;//Arrival time
     int no;//Process no/ID
-    int et;//Execution time
+    int et;//Completion time
     int conttime;//For RR Scheduling
 };
 
